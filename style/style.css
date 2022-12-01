@@ -11,7 +11,7 @@ li {
   list-style: none;
 }
 
-.form{
+.form {
   margin-bottom: 50px;
 }
 
@@ -23,8 +23,23 @@ li {
   margin-bottom: 20px;
 }
 
-.form__label{
+.form__label {
   position: relative;
+}
+
+.btn-title {
+  transition: opacity 0.3s ease;
+}
+
+.btn-title:focus,
+.btn-title:hover {
+  border: none;
+
+  opacity: 0.8;
+}
+
+.btn-title:active {
+  opacity: 0.8;
 }
 
 .form__error-message {
@@ -33,13 +48,11 @@ li {
   position: absolute;
   font-size: 14px;
   bottom: 100%;
-  transition: opacity ease .2s;
+  transition: opacity ease 0.2s;
 }
 
 .form__error-message--active {
- 
   opacity: 1;
-
 }
 
 .students__item {
@@ -47,5 +60,6 @@ li {
   height: 30px;
 }
 
-.students__item:last-child{
-border-bottom: 1px burlywood solid;}
+.students__item:last-child {
+  border-bottom: 1px burlywood solid;
+}
