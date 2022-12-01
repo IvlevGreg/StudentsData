@@ -1,6 +1,8 @@
-body {
-  padding: 50px;
-  width: 1200px;
+.page {
+  margin: 0 auto;
+  padding: 15px;
+  min-width: 600px;
+  max-width: 1400px;
 }
 
 ul {
@@ -16,7 +18,7 @@ li {
 }
 
 .filter-form {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .form__title {
@@ -28,18 +30,18 @@ li {
 }
 
 .btn-title {
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
 
 .btn-title:focus,
 .btn-title:hover {
   border: none;
-
+  color: #0d6efd;
   opacity: 0.8;
 }
 
 .btn-title:active {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .form__error-message {
@@ -57,7 +59,7 @@ li {
 
 .students__item {
   border-top: 1px rgb(228, 201, 164) solid;
-  height: 30px;
+  min-height: 30px;
 }
 
 .students__item:last-child {

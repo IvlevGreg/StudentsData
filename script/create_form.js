@@ -66,7 +66,7 @@ function createMainTags() {
   ];
 
   //filter form
-  const labelFormFilterClasses = ["form__label", "col-md-3"];
+  const labelFormFilterClasses = ["form__label", "col-md-3", "mb-3"];
   const inputFormFilterClasses = [
     "form__input",
     "form-filter__input",
@@ -191,7 +191,7 @@ function createMainTags() {
     studentsContainer,
     "button",
     studentsFormCreateButtonClassesTest,
-    "Добавить 10 студентов (только для теста)",
+    "Добавить 10 студентов (кнопка для тестирования)",
     "btn-test"
   );
 
